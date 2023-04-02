@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B5D5C929D82BDA006DC210 /* react_native_jobsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5D5C829D82BDA006DC210 /* react_native_jobsApp.swift */; };
+		83B5D5CB29D82BDA006DC210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5D5CA29D82BDA006DC210 /* ContentView.swift */; };
+		83B5D5CD29D82BDC006DC210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B5D5CC29D82BDC006DC210 /* Assets.xcassets */; };
+		83B5D5D129D82BDC006DC210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B5D5D029D82BDC006DC210 /* Preview Assets.xcassets */; };
+		83B5D5DB29D82BDC006DC210 /* react_native_jobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5D5DA29D82BDC006DC210 /* react_native_jobsTests.swift */; };
+		83B5D5E529D82BDC006DC210 /* react_native_jobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5D5E429D82BDC006DC210 /* react_native_jobsUITests.swift */; };
+		83B5D5E729D82BDC006DC210 /* react_native_jobsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5D5E629D82BDC006DC210 /* react_native_jobsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B5D5D729D82BDC006DC210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B5D5BD29D82BDA006DC210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B5D5C429D82BDA006DC210;
+			remoteInfo = "react-native-jobs";
+		};
+		83B5D5E129D82BDC006DC210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B5D5BD29D82BDA006DC210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B5D5C429D82BDA006DC210;
+			remoteInfo = "react-native-jobs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B5D5C529D82BDA006DC210 /* react-native-jobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-jobs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B5D5C829D82BDA006DC210 /* react_native_jobsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_jobsApp.swift; sourceTree = "<group>"; };
+		83B5D5CA29D82BDA006DC210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83B5D5CC29D82BDC006DC210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B5D5CE29D82BDC006DC210 /* react_native_jobs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = react_native_jobs.entitlements; sourceTree = "<group>"; };
+		83B5D5D029D82BDC006DC210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83B5D5D629D82BDC006DC210 /* react-native-jobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-native-jobsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B5D5DA29D82BDC006DC210 /* react_native_jobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_jobsTests.swift; sourceTree = "<group>"; };
+		83B5D5E029D82BDC006DC210 /* react-native-jobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-native-jobsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B5D5E429D82BDC006DC210 /* react_native_jobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_jobsUITests.swift; sourceTree = "<group>"; };
+		83B5D5E629D82BDC006DC210 /* react_native_jobsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_jobsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B5D5C229D82BDA006DC210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5D329D82BDC006DC210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5DD29D82BDC006DC210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B5D5BC29D82BDA006DC210 = {
+			isa = PBXGroup;
+			children = (
+				83B5D5C729D82BDA006DC210 /* react-native-jobs */,
+				83B5D5D929D82BDC006DC210 /* react-native-jobsTests */,
+				83B5D5E329D82BDC006DC210 /* react-native-jobsUITests */,
+				83B5D5C629D82BDA006DC210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B5D5C629D82BDA006DC210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B5D5C529D82BDA006DC210 /* react-native-jobs.app */,
+				83B5D5D629D82BDC006DC210 /* react-native-jobsTests.xctest */,
+				83B5D5E029D82BDC006DC210 /* react-native-jobsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B5D5C729D82BDA006DC210 /* react-native-jobs */ = {
+			isa = PBXGroup;
+			children = (
+				83B5D5C829D82BDA006DC210 /* react_native_jobsApp.swift */,
+				83B5D5CA29D82BDA006DC210 /* ContentView.swift */,
+				83B5D5CC29D82BDC006DC210 /* Assets.xcassets */,
+				83B5D5CE29D82BDC006DC210 /* react_native_jobs.entitlements */,
+				83B5D5CF29D82BDC006DC210 /* Preview Content */,
+			);
+			path = "react-native-jobs";
+			sourceTree = "<group>";
+		};
+		83B5D5CF29D82BDC006DC210 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83B5D5D029D82BDC006DC210 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83B5D5D929D82BDC006DC210 /* react-native-jobsTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B5D5DA29D82BDC006DC210 /* react_native_jobsTests.swift */,
+			);
+			path = "react-native-jobsTests";
+			sourceTree = "<group>";
+		};
+		83B5D5E329D82BDC006DC210 /* react-native-jobsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83B5D5E429D82BDC006DC210 /* react_native_jobsUITests.swift */,
+				83B5D5E629D82BDC006DC210 /* react_native_jobsUITestsLaunchTests.swift */,
+			);
+			path = "react-native-jobsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B5D5C429D82BDA006DC210 /* react-native-jobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B5D5EA29D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobs" */;
+			buildPhases = (
+				83B5D5C129D82BDA006DC210 /* Sources */,
+				83B5D5C229D82BDA006DC210 /* Frameworks */,
+				83B5D5C329D82BDA006DC210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-jobs";
+			productName = "react-native-jobs";
+			productReference = 83B5D5C529D82BDA006DC210 /* react-native-jobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B5D5D529D82BDC006DC210 /* react-native-jobsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B5D5ED29D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobsTests" */;
+			buildPhases = (
+				83B5D5D229D82BDC006DC210 /* Sources */,
+				83B5D5D329D82BDC006DC210 /* Frameworks */,
+				83B5D5D429D82BDC006DC210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B5D5D829D82BDC006DC210 /* PBXTargetDependency */,
+			);
+			name = "react-native-jobsTests";
+			productName = "react-native-jobsTests";
+			productReference = 83B5D5D629D82BDC006DC210 /* react-native-jobsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83B5D5DF29D82BDC006DC210 /* react-native-jobsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B5D5F029D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobsUITests" */;
+			buildPhases = (
+				83B5D5DC29D82BDC006DC210 /* Sources */,
+				83B5D5DD29D82BDC006DC210 /* Frameworks */,
+				83B5D5DE29D82BDC006DC210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B5D5E229D82BDC006DC210 /* PBXTargetDependency */,
+			);
+			name = "react-native-jobsUITests";
+			productName = "react-native-jobsUITests";
+			productReference = 83B5D5E029D82BDC006DC210 /* react-native-jobsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B5D5BD29D82BDA006DC210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					83B5D5C429D82BDA006DC210 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					83B5D5D529D82BDC006DC210 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 83B5D5C429D82BDA006DC210;
+					};
+					83B5D5DF29D82BDC006DC210 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 83B5D5C429D82BDA006DC210;
+					};
+				};
+			};
+			buildConfigurationList = 83B5D5C029D82BDA006DC210 /* Build configuration list for PBXProject "react-native-jobs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B5D5BC29D82BDA006DC210;
+			productRefGroup = 83B5D5C629D82BDA006DC210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B5D5C429D82BDA006DC210 /* react-native-jobs */,
+				83B5D5D529D82BDC006DC210 /* react-native-jobsTests */,
+				83B5D5DF29D82BDC006DC210 /* react-native-jobsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B5D5C329D82BDA006DC210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5D5D129D82BDC006DC210 /* Preview Assets.xcassets in Resources */,
+				83B5D5CD29D82BDC006DC210 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5D429D82BDC006DC210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5DE29D82BDC006DC210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B5D5C129D82BDA006DC210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5D5CB29D82BDA006DC210 /* ContentView.swift in Sources */,
+				83B5D5C929D82BDA006DC210 /* react_native_jobsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5D229D82BDC006DC210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5D5DB29D82BDC006DC210 /* react_native_jobsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5D5DC29D82BDC006DC210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5D5E529D82BDC006DC210 /* react_native_jobsUITests.swift in Sources */,
+				83B5D5E729D82BDC006DC210 /* react_native_jobsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B5D5D829D82BDC006DC210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B5D5C429D82BDA006DC210 /* react-native-jobs */;
+			targetProxy = 83B5D5D729D82BDC006DC210 /* PBXContainerItemProxy */;
+		};
+		83B5D5E229D82BDC006DC210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B5D5C429D82BDA006DC210 /* react-native-jobs */;
+			targetProxy = 83B5D5E129D82BDC006DC210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83B5D5E829D82BDC006DC210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B5D5E929D82BDC006DC210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		83B5D5EB29D82BDC006DC210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "react-native-jobs/react_native_jobs.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"react-native-jobs/Preview Content\"";
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B5D5EC29D82BDC006DC210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "react-native-jobs/react_native_jobs.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"react-native-jobs/Preview Content\"";
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B5D5EE29D82BDC006DC210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-native-jobs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/react-native-jobs";
+			};
+			name = Debug;
+		};
+		83B5D5EF29D82BDC006DC210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-native-jobs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/react-native-jobs";
+			};
+			name = Release;
+		};
+		83B5D5F129D82BDC006DC210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "react-native-jobs";
+			};
+			name = Debug;
+		};
+		83B5D5F229D82BDC006DC210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9675BVH9R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobs.react-native-jobsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "react-native-jobs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B5D5C029D82BDA006DC210 /* Build configuration list for PBXProject "react-native-jobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5D5E829D82BDC006DC210 /* Debug */,
+				83B5D5E929D82BDC006DC210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B5D5EA29D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5D5EB29D82BDC006DC210 /* Debug */,
+				83B5D5EC29D82BDC006DC210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B5D5ED29D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5D5EE29D82BDC006DC210 /* Debug */,
+				83B5D5EF29D82BDC006DC210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B5D5F029D82BDC006DC210 /* Build configuration list for PBXNativeTarget "react-native-jobsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5D5F129D82BDC006DC210 /* Debug */,
+				83B5D5F229D82BDC006DC210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B5D5BD29D82BDA006DC210 /* Project object */;
+}
